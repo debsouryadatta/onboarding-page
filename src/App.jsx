@@ -1,6 +1,6 @@
 import './App.css'
-import Onboarding from './pages/onboarding';
-import Admin from './pages/admin';
+import Onboarding from './pages/Onboarding';
+import Admin from './pages/Admin';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
