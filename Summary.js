@@ -34,8 +34,12 @@
 
 
 // Back to Frontend work
-// * 23. Creating axios request for getting the data to be displayed on the onboarding page, i.e. the logo and the text on the button
-// * 24. Creating axios request for updating the data to be displayed on the onboarding page, in Admin.jsx
+// * 23. Creating axios.get request for getting the data to be displayed on the onboarding page, i.e. the logo and the text on the button
+// * 24. Creating axios.patch request for updating the data to be displayed on the onboarding page, in Admin.jsx
 // * 25. We have used react-file-base64 conversion for converting image to text format to store on mongodb
-// * 26. The major problem that was arised during updating is that the file was was becoming more than the default so we changed the default setting to 50mb(Its done in the backend app.js file)
+// * 26. The major problem that was arised during updating is that the file was becoming more than the default so we changed the default setting to 50mb(Its done in the backend app.js file)
 // * 27. Used useNavigate hook to navigate back to the onboarding page when we click the update button on dashboard
+
+
+// Finishing
+// * 28. Then the project got completed but in between this, during deploying we faced 3 vercel issues, For the 404 error - we added the vercel.json file to the server folder, then for 500 error we modified the vercel.json file and then ultimately for the react-router vercel problem we had to add the vercel.json file on the client folder.
