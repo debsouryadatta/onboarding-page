@@ -19,11 +19,11 @@ const admin = () => {
   const updateFunc = () => {
     axios.patch('https://onboarding-page-backend2.vercel.app/api/v1/users/update', item).then((res) => {
       console.log(res.data);
+      navigate('/')
     })
       .catch((error) => {
         console.log(error);
       });
-      navigate('/')
   }
 
 
