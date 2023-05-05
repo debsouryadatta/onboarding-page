@@ -99,7 +99,7 @@ const admin = () => {
 
       {/* Table Section */}
 
-      <section className="container px-4 mx-auto py-4 w-[50%]">
+      <section className="container px-4 mx-auto py-4 w-[80%]">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-lg font-medium text-gray-800 dark:text-white">
